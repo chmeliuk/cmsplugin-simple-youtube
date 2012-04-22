@@ -13,5 +13,6 @@ Setup
 - add cmsplugin_simple_youtube to python path
 - add 'cmsplugin_simple_youtube' to INSTALLED_APPS
 - run 'python manage.py syncdb'
+- install jquery fancybox http://fancybox.net/
 
 Enjoy ;)
