@@ -26,5 +26,3 @@ class SimpleYoutubePointer(CMSPlugin):
 
     def __unicode__(self):
         return self.youtube.name
-
-#reversion_register(YouTube)
