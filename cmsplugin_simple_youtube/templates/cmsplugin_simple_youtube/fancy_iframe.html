@@ -1,0 +1,11 @@
+<a href="http://www.youtube.com/embed/{{ object.video_id }}?autoplay={{ object.autoplay|yesno:"1,0" }}&wmode=opaque"
+   class="cmsplugin_simple_youtube_{{ object.video_id }}"><img src="http://i4.ytimg.com/vi/{{ object.video_id}}/default.jpg" /></a>
+<script type="text/javascript">
+    $(".cmsplugin_simple_youtube_{{ object.video_id }}").fancybox({
+        'transitionIn': 'none',
+        'transitionOut': 'none',
+        'type': 'iframe',
+        'width': 640,
+        'height': 360
+    });
+</script>
